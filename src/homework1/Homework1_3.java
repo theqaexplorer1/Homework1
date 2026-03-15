@@ -1,7 +1,5 @@
 package homework1;
 
-import java.util.Arrays;
-
 public class Homework1_3 {
     public static void main(String[] args) {
         int n = 126;
