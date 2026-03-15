@@ -1,7 +1,5 @@
 package homework1;
 
-import java.util.Arrays;
-
 public class Homework1_4 {
     public static void main(String[] args) {
         double n = 36.6;
