@@ -8,4 +8,5 @@ public class Homework1_5 {
         int n1 = q%w;
         System.out.println(q+" / "+w+" = "+n+" и "+n1+" в остатке");
     }
+
 }

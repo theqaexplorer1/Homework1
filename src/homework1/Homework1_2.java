@@ -7,4 +7,5 @@ public class Homework1_2 {
         int n2 = n % 10;
         System.out.println(n1+n2);
     }
+
 }
