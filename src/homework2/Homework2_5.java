@@ -14,29 +14,35 @@ import java.util.Scanner;
 public class Homework2_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = 0;
-        boolean isValid = false;
+        int n = 0; // переменная для хранения числа, введённого пользователем
+        boolean isValid = false; // флаг, указывающий, корректен ли ввод
 
+        // Цикл продолжается, пока не будет введено корректное положительное целое число
         while (!isValid) {
             System.out.println("Введите любое целое положительное число: ");
+            // Проверяем, является ли следующее значение в потоке целым числом
             if (scanner.hasNextInt()) {
-                n = scanner.nextInt();
+                n = scanner.nextInt(); // Считываем число
+                // Если число положительное, устанавливаем флаг isValid в true и выходим из цикла
                 if (n > 0) {
                     isValid = true;
                 } else {
+                    // Если число не положительное (отрицательное или ноль), выводим сообщение
                     System.out.println("Вы ввели отрицательное число.");
                 }
             } else {
+                // Если введено не целое число (например, буквы или дробное число)
                 System.out.println("Ошибка: Введите положительное число!");
-                scanner.next();
+                scanner.next(); // очищаем некорректный ввод, чтобы избежать бесконечного цикла
             }
         }
 
-        int total = 0;
-        int i = 1;
+        // Вычисляем сумму чисел от 1 до n с помощью цикла while
+        int total = 0; // переменная для сохранения суммы
+        int i = 1; // счетчик
         while (i <= n) {
-             total = total + i;
-             i ++;
+             total = total + i; // добавляем текущее значение i к сумме
+             i ++; //увеличиваем счётчик
         }
         System.out.println("Сумма чисел от 1 до " + n + " = " + total);
     }
