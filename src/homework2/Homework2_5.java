@@ -46,5 +46,4 @@ public class Homework2_5 {
         }
         System.out.println("Сумма чисел от 1 до " + n + " = " + total);
     }
-
 }

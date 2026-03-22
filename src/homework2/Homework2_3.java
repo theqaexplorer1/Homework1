@@ -11,5 +11,4 @@ public class Homework2_3 {
             System.out.println(i + " в квадрате " + (i*i) );
         }
     }
-
 }

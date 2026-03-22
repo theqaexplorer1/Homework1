@@ -20,5 +20,4 @@ public class Homework2_1 {
             System.out.println(n + " - нечётное число");
         }
     }
-
 }

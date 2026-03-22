@@ -13,5 +13,4 @@ public class Homework2_4 {
             System.out.println(i);
         }
     }
-
 }

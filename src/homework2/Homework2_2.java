@@ -22,5 +22,4 @@ public class Homework2_2 {
             System.out.println("«Cold»");
         }
     }
-
 }
