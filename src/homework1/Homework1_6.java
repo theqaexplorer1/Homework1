@@ -10,4 +10,5 @@ public class Homework1_6 {
         System.out.println(a);
         System.out.println(b);
     }
+
 }
